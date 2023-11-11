@@ -1,0 +1,3 @@
+[submodule "adb"]
+	path = adb
+	url = git@github.com:HexHive/teezz-adb.git

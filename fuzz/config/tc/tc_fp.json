@@ -1,0 +1,10 @@
+{
+  "target" : "tc",
+  "params" : {
+    "login_blob" : "fuzz/login_blobs/login.blob.fingerprintd",
+    "uuid" : "003d2ba357cbe3119c1a0800200c9a66",
+    "seeds_dir" : "fuzz/seeds/trustedcore/003d2ba357cbe3119c1a0800200c9a66/",
+    "uid" : "1000",
+    "process" : "fingerprintd"
+  }
+}

@@ -1,0 +1,40 @@
+services:
+  teezz-base:
+    platform: linux
+    build:
+      context: .
+    image: teezz-fuzzer:latest
+    privileged: true # needed for adb
+    working_dir: /root
+    volumes:
+      - /dev/bus/usb:/dev/bus/usb
+      - ./:/src
+    environment:
+      TEE: ${TEE}
+      DEVICE_ID: ${DEVICE_ID}
+      PYTHONPATH: /src
+
+  teezz-preprocess:
+    extends:
+      service: teezz-base
+    volumes:
+      - ./docker/docker-prunevaldeps.sh:/docker-prunevaldeps.sh
+      - ./docker/docker-preprocess.sh:/docker-preprocess.sh
+      - ${SEEDS_RAW}:/seeds-raw:ro
+      - ${SEEDS_DIRTY}:/seeds-dirty
+      - ${IN}:/teezz-in
+
+  teezz-fuzzer:
+    extends:
+      service: teezz-base
+    container_name: teezz-fuzzer
+    volumes:
+      - ./docker/docker-fuzz.sh:/docker-fuzz.sh
+      - ./docker/.android:/root/.android
+      - ${IN}:/teezz-in
+      - ${OUT}:/teezz-out
+    environment:
+      MODE: ${MODE}
+      DURATION: ${DURATION}
+      PORT: ${PORT}
+      CONFIG: ${CONFIG}

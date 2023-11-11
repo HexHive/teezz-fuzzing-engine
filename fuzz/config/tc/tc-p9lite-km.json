@@ -1,0 +1,8 @@
+{
+    "target" : "tc",
+    "uid" : "1017",
+    "process_name" : "keystore",
+    "login_blob" : "fuzz/login_blobs/login.blob.keystore",
+    "uuid" : "07070707070707070707070707070707",
+    "proto": "fuzz.proto.keymaster_pb2"
+}

@@ -1,0 +1,13 @@
+{
+  "target" : "qsee",
+  "seeds_dir" : "fuzz/seeds/qsee_keystore",
+  "uid" : "1017",
+  "process" : "keystore",
+  "path" : "/vendor/firmware",
+  "fname" : "keymaster64",
+  "sb_size" : "0xa000",
+  "valid_seed" : "fuzz/seeds/keystore_qsee_taimen.pickle",
+  "proto": "fuzz.proto.KeymasterDevice_pb2",
+  "root_archive": "recover/Magisk-v20.4.zip",
+  "magisk_db": "recover/magisk.db"
+}

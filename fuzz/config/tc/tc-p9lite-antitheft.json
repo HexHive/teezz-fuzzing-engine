@@ -1,0 +1,9 @@
+{
+    "target" : "tc",
+    "uid" : "1000",
+    "process_name" : "antitheft",
+    "login_blob" : "fuzz/login_blobs/login.blob.antitheft",
+    "uuid" : "8115b7b4d2ad9fe8d536f35436dc7973",
+    "seeds_dir" : "fuzz/seeds/trustedcore/antitheft_p9lite/",
+    "proto": "fuzz.proto.KeymasterDevice_pb2"
+}

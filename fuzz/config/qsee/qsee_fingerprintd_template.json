@@ -1,0 +1,11 @@
+{
+  "target" : "qsee",
+  "params" : {
+    "seeds_dir" : "fuzz/seeds/qsee_fingerprint",
+    "uid" : "1000",
+    "process" : "fingerprintd",
+    "path" : "/vendor/firmware",
+    "fname" : "fpctzappfingerprint",
+    "sb_length" : "0x80"
+  }
+}

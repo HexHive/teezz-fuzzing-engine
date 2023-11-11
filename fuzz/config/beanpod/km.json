@@ -1,0 +1,7 @@
+{
+  "target": "beanpod",
+  "process": "android.hardware.keymaster@4.0-service.beanpod",
+  "uid": 1000,
+  "uuid": "8b338dd7c31ae0499f65f4efe179739d",
+  "proto": "fuzz.proto.KeymasterDevice_pb2"
+}

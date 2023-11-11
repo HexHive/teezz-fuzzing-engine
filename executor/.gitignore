@@ -1,0 +1,10 @@
+*.o
+*.so
+*.swp
+
+obj
+libs
+
+.project
+cscope.files
+cscope.out

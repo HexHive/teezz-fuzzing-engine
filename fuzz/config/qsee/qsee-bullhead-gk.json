@@ -1,0 +1,14 @@
+{
+  "target" : "qsee",
+  "seeds_dir" : "fuzz/seeds/qsee_keystore",
+  "uid" : "1000",
+  "process" : "gatekeeperd",
+  "path" : "/vendor/firmware/keymaster",
+  "fname" : "keymaster",
+  "sb_size" : "0xa000",
+  "valid_seed" : "fuzz/seeds/gatekeeper_qsee.pickle",
+  "proto": "fuzz.proto.keymaster_pb2",
+  "root_archive": "recover/Magisk-v20.4.zip",
+  "magisk_db": "recover/magisk.db"
+}
+

@@ -1,0 +1,9 @@
+{
+    "target" : "tc",
+    "uid" : "1000",
+    "process_name" : "secure_storage",
+    "login_blob" : "fuzz/login_blobs/login.blob.secure_storage",
+    "uuid" : "02020202020202020202020202020202",
+    "seeds_dir" : "fuzz/seeds/trustedcore/secure_storage_p9lite/",
+    "proto": "fuzz.proto.KeymasterDevice_pb2"
+}

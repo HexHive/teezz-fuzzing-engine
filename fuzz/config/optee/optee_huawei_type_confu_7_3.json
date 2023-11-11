@@ -1,0 +1,8 @@
+{
+  "params": {
+    "process": "huawei_type_confu", 
+    "seeds_dir": "./fuzz/seeds/optee/huawei_type_confu/7/3", 
+    "uuid": "00f2aa8a5024e411abe20002deeeeeef"
+  }, 
+  "target": "optee"
+}

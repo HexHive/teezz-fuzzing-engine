@@ -1,0 +1,9 @@
+{
+    "target" : "tc",
+    "uid" : "1000",
+    "process_name" : "rpmbkey",
+    "login_blob" : "fuzz/login_blobs/login.blob.rpmbkey",
+    "uuid" : "55f28c6c98ca9e43a98eade64022ecb6",
+    "seeds_dir" : "fuzz/seeds/trustedcore/rpmbkey_p9lite/",
+    "proto": "fuzz.proto.KeymasterDevice_pb2"
+}

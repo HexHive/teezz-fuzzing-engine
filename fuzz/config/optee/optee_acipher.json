@@ -1,0 +1,6 @@
+{
+  "target": "optee",
+  "process": "acipher",
+  "uid": 1000,
+  "uuid": "d9ee34a7a1d64442aa507c99719e7b7b"
+}

@@ -1,0 +1,8 @@
+{
+  "target" : "tc",
+  "uid" : "0",
+  "process_name" : "com.huawei.systemmanager",
+  "login_blob" : "fuzz/login_blobs/login.blob.p20lite_rpmbkey",
+  "uuid" : "55f28c6c98ca9e43a98eade64022ecb6",
+  "proto": "fuzz.proto.KeymasterDevice_pb2"
+}

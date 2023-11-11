@@ -1,0 +1,9 @@
+{
+  "target" : "tc",
+  "params" : {
+    "login_blob" : "login_blobs/login.blob.keystore",
+    "seeds_dir" : "seeds/trustedcore/07070707070707070707070707070707/10/6605/",
+    "uid" : "1017",
+    "process" : "keystore"
+  }
+}

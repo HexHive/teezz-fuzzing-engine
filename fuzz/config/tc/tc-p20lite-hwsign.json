@@ -1,0 +1,8 @@
+{
+  "target" : "tc",
+  "uid" : "0",
+  "process_name" : "hwsign",
+  "login_blob" : "fuzz/login_blobs/login.blob.p20lite_hwsign",
+  "uuid" : "0b66179b6889ed4e917edd32379bd548",
+  "proto": "fuzz.proto.KeymasterDevice_pb2"
+}

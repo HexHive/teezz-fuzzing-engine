@@ -1,0 +1,6 @@
+{
+  "target": "optee",
+  "process": "android.hardware.gatekeeper@1.0-service.optee",
+  "uid": 1000,
+  "uuid": "4334574d566a7242ac6f2425af9ef9bb"
+}

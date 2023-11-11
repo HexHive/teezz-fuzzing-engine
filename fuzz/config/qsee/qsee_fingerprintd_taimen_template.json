@@ -1,0 +1,13 @@
+{
+  "target" : "qsee",
+  "params" : {
+    "seeds_dir" : "fuzz/seeds/qsee_taimen/android.hardware.biometrics.fingerprint@2.1-service.fpc",
+    "uid" : "1000",
+    "process" : "android.hardware.biometrics.fingerprint@2.1-service.fpc",
+    "path" : "/vendor/firmware",
+    "fname" : "fpctzappfingerprint",
+    "sb_length" : "0x400"
+  },
+  "root_archive": "../recover/Magisk-v20.4.zip",
+  "magisk_db": "../recover/magisk.db"
+}

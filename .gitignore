@@ -1,0 +1,12 @@
+*.pyc
+*.swp
+login.blob
+obj/
+libs/
+.venv/
+.idea/
+tags
+*.o
+*.project
+.vscode/
+*.proto

@@ -1,0 +1,13 @@
+{
+  "target" : "qsee",
+  "seeds_dir" : "fuzz/seeds/qsee_taimen/android.hardware.drm@1.1-service.widevine/",
+  "uid" : "1013",
+  "process" : "android.hardware.drm@1.1-service.widevine",
+  "path" : "/vendor/firmware",
+  "fname" : "widevine",
+  "sb_size" : "0xa000",
+  "valid_seed" : "fuzz/seeds/keystore_qsee_taimen.pickle",
+  "proto": "fuzz.proto.KeymasterDevice_pb2",
+  "root_archive": "recover/Magisk-v20.4.zip",
+  "magisk_db": "recover/magisk.db"
+}

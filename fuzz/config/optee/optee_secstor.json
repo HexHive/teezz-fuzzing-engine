@@ -1,0 +1,6 @@
+{
+  "target": "optee",
+  "process": "secure_storage",
+  "uid": 1000,
+  "uuid": "bb50e7f43714bf4f87858d3580c34994"
+}

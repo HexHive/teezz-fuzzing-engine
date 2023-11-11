@@ -1,0 +1,9 @@
+{
+  "target" : "tc",
+  "uid" : "1000",
+  "process_name" : "gatekeeperd",
+  "login_blob" : "fuzz/login_blobs/login.blob.gatekeeperd",
+  "uuid" : "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b",
+  "seeds_dir" : "fuzz/seeds/trustedcore/0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b/",
+  "proto": "fuzz.proto.keymaster_pb2"
+}

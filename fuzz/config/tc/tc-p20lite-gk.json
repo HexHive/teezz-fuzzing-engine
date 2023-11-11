@@ -1,0 +1,8 @@
+{
+  "target" : "tc",
+  "uid" : "1000",
+  "process_name" : "android.hardware.gatekeeper@1.0-service",
+  "login_blob" : "fuzz/login_blobs/login.blob.p20lite_gatekeeper",
+  "uuid" : "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b",
+  "proto": "fuzz.proto.KeymasterDevice_pb2"
+}

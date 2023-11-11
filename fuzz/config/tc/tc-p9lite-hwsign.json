@@ -1,0 +1,9 @@
+{
+    "target" : "tc",
+    "uid" : "1000",
+    "process_name" : "hwsign",
+    "login_blob" : "fuzz/login_blobs/login.blob.hwsign",
+    "uuid" : "0b66179b6889ed4e917edd32379bd548",
+    "seeds_dir" : "fuzz/seeds/trustedcore/hwsign_p9lite/",
+    "proto": "fuzz.proto.KeymasterDevice_pb2"
+}

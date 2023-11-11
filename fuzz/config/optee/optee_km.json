@@ -1,0 +1,7 @@
+{
+  "target": "optee",
+  "process": "android.hardware.keymaster@3.0-service.optee",
+  "uid": 1000,
+  "uuid": "171aa5db6305e71193b16fa7b0071a51",
+  "proto": "fuzz.proto.KeymasterDevice_pb2"
+}

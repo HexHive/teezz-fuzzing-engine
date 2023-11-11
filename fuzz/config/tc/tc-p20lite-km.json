@@ -1,0 +1,8 @@
+{
+  "target" : "tc",
+  "uid" : "1000",
+  "process_name" : "android.hardware.keymaster@3.0-service",
+  "login_blob" : "fuzz/login_blobs/login.blob.P20Lite_keystore",
+  "uuid" : "07070707070707070707070707070707",
+  "proto": "fuzz.proto.KeymasterDevice_pb2"
+}
