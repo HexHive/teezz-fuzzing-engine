@@ -47,5 +47,4 @@ RUN --mount=type=bind,source=./requirements.txt,target=/src/requirements.txt \
     . .venv/bin/activate && \
     pip install -r /src/requirements.txt
 
-WORKDIR /root/.android
-COPY ./docker/adb* .
+WORKDIR /root

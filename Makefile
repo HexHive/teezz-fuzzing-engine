@@ -25,7 +25,7 @@ help: ## Show this help
 ################################################################################
 
 build: Dockerfile compose.yaml ## Build the Docker container(s)
-	docker compose build
+	docker compose --env-file $(ENV_FILE) build
 
 run: ## Run the Docker container and spawn shell
 	docker compose --env-file $(ENV_FILE) run --rm \
